@@ -1,0 +1,107 @@
+h1 {
+    margin: 6vw;
+    font-family: custom01;
+    font-size: 3em;
+    color: black;
+    font-size: 300%;
+  }
+h2 {
+    margin: 1vw;
+    padding-left: 6vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+#nav{
+    background-color: #222222;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+  }
+#nav a{
+    padding: 2em;
+    color: white;
+    font-family: custom02;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+  }
+#info{
+    background-color: #222222;
+    margin-top: 4vw;
+    padding: 1em;
+    text-align: center;
+    
+
+}
+#info t{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    
+}
+#info h2{
+     margin: 1vw;
+    padding-left: 6vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: left;
+}
+#project_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6vw;
+    background-color: #222222;
+}#project_content video{
+    padding: 5em; 
+}
+#project_list{
+    float: left; 
+    margin: 6vw; 
+    margin-top: -5vw;
+    background-color: #222222;
+}
+#project_list ul{
+    float: left; 
+    padding: 1em;
+}
+#project_list li{
+    text-emphasis: none;
+    padding: 5em;
+}
+#project_list a{
+    color: white;
+    font-family: custom01;
+    font-size: 1em;
+    text-decoration: none;
+    text-decoration-thickness: bold;
+    text-align: center;
+}
+#impressumstext{
+    float: left; 
+    margin: 6vw; 
+    margin-top: -5vw;
+    background-color: #222222;
+    border-style: solid;
+    padding-top: 1em;
+}
+#impressumstext t{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-top: 3em;
+    text-decoration: none;
+    text-align: center;
+}
+@font-face {
+    font-family: custom01;
+    src: url(res/GameCube.ttf);
+  }
+  @font-face {
+    font-family: custom02;
+    src: url(res/GameCube.ttf);
+  }
