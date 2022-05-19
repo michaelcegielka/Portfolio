@@ -148,9 +148,6 @@ h3 {
     justify-content: center;
     margin: 6vw;
 }#project_content video{
-    border-style: solid;
-    border-left-color: white;
-    border-right-color: white;
     padding: 5em; 
     clear: both;
     
