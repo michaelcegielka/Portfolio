@@ -121,14 +121,21 @@ h3 {
     margin-top: 4vw;
     padding: 1em;
     text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+
     
 
 }
 #info t{
     color: white;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     text-decoration: none;
+    line-height:1.5em;
     
 }
 #info h2{
@@ -249,8 +256,10 @@ h3 {
     text-align: center;
 }
 .impressum{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 6vw; 
-    margin-top: -5vw;
     background-color: black;
     border-style: solid;
     border-left-color: white;
