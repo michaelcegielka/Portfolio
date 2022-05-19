@@ -24,6 +24,7 @@ h3 {
     align-items: flex-end;
     float: right;
   }
+
 .break{
     flex-basis: 100%;
     height: 0%;
