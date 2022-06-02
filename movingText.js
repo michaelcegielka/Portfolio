@@ -1,4 +1,4 @@
-const texts = ['HEY, WELCOME!', 'HEJ, WELCOME!', 'SALUT, BIENVENUE', 'HOLA, BIENVENIDA', 'Привет, добро пожаловать'];
+const texts = ['HEY, WELCOME!', 'HEJ, WELCOME!','SALUT, BIENVENUE',  '嘿，欢迎    ', '안녕하세요, 환영합니다   ', 'HALLO, WILLKOMMEN','HOLA, BIENVENIDA', 'Привет, добро пожаловать'];
 let count = 0;
 let index = 0;
 let currentText = '';
