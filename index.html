@@ -5,29 +5,233 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    
   </head>
 
-
   <body>
-      <div class="nav">
-        <a id="current_site" href="#">HOME</a>  
-        <a href="projects.html">PROJECTS</a>
-        <a href="impressum.html">CONTACT</a>
+    <script src="generalScript.js"></script>
+      <div class="nav" id="navNav">  
+        <a id="navi01" href="#projects">PROJECTS</a>
+        <a id="navi02" href="#impressum">CONTACT</a>
       </div>
       
+      <div class="restDiv">
       <div class="header_small">          
             <h2 class="hey">HI, WELCOME!</h>
+      </div> 
+      <script src="movingText.js"></script> 
+    </div>
+          
+      
+      <div class="projectsListDiv" id="projects">
+      <div class="project_list">
+        <ul>
+          
+          <li><a href=""></a></li>
+          <li><a href="#forgottenDarkness">FORGOTTEN DARKNESS</a></li>
+          <li><a href="#saveOurSouls">SAVE OUR SOULS</a></li>
+          <li><a href="#spaceAdventure">SPACE ADVENTURE</a></li>
+  
+        </ul>
       </div>
-      <div id="info">
+    </div>
+      <div class="projectsDiv" id="forgottenDarkness">
+      <div class="header">
+        <h1>FORGOTTEN DARKNESS</h1>
+      </div>
+      <div id="project_content">
+        <video width="1280" height="720" controls poster="res/ForgottenDarkness/preview.JPG">
+          <source src="res/ForgottenDarkness/Teaser_02_fix02.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="text">
+            <t>Take a look into the mind of a horrible person. <br>
+              Who is it? Where am I?
+               Why am I alone in this big house!?....
+              Is it reality or just a dream?
+            </t>
+          <figure>
+            <img src="res/ForgottenDarkness/Konzept01.JPG">
+            <figcaption>CONCEPT ART</figcaption>
+          </figure>
+        </div>
+        <div id="text_alt">                
+          <figure>
+            <img src="res/ForgottenDarkness/menu.JPG">
+            <figcaption>MAIN MENU</figcaption>
+          </figure>
+          <t>ForgottenDarkness is about a Man who did horrible things and it's a mysterie who he really is.</br>
+            You have to experience the Villa you spawn in and find a way to get upstairs. 
+          </t>
+        </div>
+        <div id="text">    
+          <div class="audioContainer">     
+            <div class="audioContent"><h3>CREDITS SOUNDTRACK:</h3></div>
+            <div class="break"></div>
+            <div class="audioContent">
+              <audio controls>
+                <source src="res/ForgottenDarkness/Credits_Soundtrack.wav" type="audio/wav">
+                Your browser does not support the audio tag.
+              </audio>
+            </div>
+          <div class="break"></div>
+        </div>
+      </div>
+        <div id="text">
+          <t>Sound</br></br>
+            Der Sound soll hauptsächlich das furchterregende, unangenehme Gefühl, </br>
+            welches durch viele Ereignisse und Objekte hervorgerufen wird, untermalen. </br>
+            Hierbei habe ich eine Mischung aus freien Sounds, </br>
+            selbst designten Sounds und selbst bearbeiteten Sounds benutzt. </br>
+            Neben den künstlerischen Sounds, welche Gefühle und Reaktionen hervorrufen sollen,</br>
+             gibt es jedoch noch die alltäglichen Sounds, </br>
+            wie das öffnen einer Tür, oder das laufen über den Rasen.</br>
+            Für den Sound habe ich folgende Webseiten und Software benutzt:</br>
+             www.Freesounds.org und Audacity.
+          </t>        
+          <figure>
+            <img src="res/ForgottenDarkness/Draußenmit02.JPG">
+            <figcaption>CONCEPT ART</figcaption>
+          </figure>
+        </div>
+        <div id="text_alt">
+                  
+          <figure>
+            <img src="res/ForgottenDarkness/menu.JPG">
+            <figcaption>MAIN MENU</figcaption>
+          </figure>
+          <t>Leveldesign, Postprocessing & Atmosphäre </br></br>
+            Desweiteren habe ich mich in der Experimentierphase unseres Projekts ausgiebig mit dem Look und den sogenannten Landscapes beschäftigt. 
+            Landscapes sind das Fundament einer jeden Spielwelt. Wie der Name schon sagt, erstellt man mit ihnen eine Landschaft, 
+            auf der eine Welt aufgebaut werden kann. In unserem Spiel habe ich damit den Außenbereich des Hauses verwirklicht, 
+            sowie den Hintergrund (Berge, Höhenunterschiede). Um den Garten zu realisieren reicht aber ein Landscape nicht alleine aus, 
+            dazu fehlt noch eine Foliage. Ein Foliage-System erlaubt es Objekte aller Art über eine Landscape zu verteilen und somit Gras, 
+            Bäume oder Geröll einfach über eine größe Fläche zu verteilen. Dies habe ich für unseren Garten und den angrenzenden Wald benutzt.
+            Ein weiteres Level Design-Projekt waren unsere Darkrooms. Ein Darkroom ist ein Raum in unserer selbst erstellten Alptraumwelt, 
+            welche im Laufe des Spiel das ein oder andere Mal durchlaufen werden. Diese Räume sind eine Kombination aus einem düsteren Look, 
+            Partikelsystemen, Objekten und Charakteren. Für den Look und die Atmosphäre kommen eine Vielzahl an Komponenten zusammen. 
+            Kameraeinstellungen, Musik & Sound und Partikeleffekte ergeben diese Atmosphärische Symbiose.
+            Schließlich habe ich zusammen mit meinem Team in den spannend Phasen(Beta Abgabe, Finale Abgabe) viele Probleme unseres Spiels beseitigt, 
+            einen Einblick in viele andere Bereiche erhalten und den ein oder anderen Blueprint erstellt, implementiert oder erweitert.
+          </t>
+  
+          
+        </div>
+       
+  
+      </div>
+      <div class="bottom">
+        <t id="headline">A project, part of my bachelors programm</t>
         <t>
-            I'm Michael, a Digital Media student at the University of Bremen and University of the Arts Bremen.  <br>
-            You can call me an artist, composer, musician, or something between.<br>
-            My main studies and works are based in the field of game development, sound synthesis
-             and atmospheric immersion
+          <br>Forgotten Darkness 2021, Stella Springer | Marcus Schneigelberger | 
+          Thijs Diepenbroek | Rico Schnell | Michael Cegielka <a href="impressum.html"><br><br>Contact</a>
         </t>
       </div>
-      
-      <script src="movingText.js"></script>
+    </div>
+    <div class="projectsDiv" id="saveOurSouls">
+      <div class="header">
+        <h1>SAVE OUR SOULS</h1>
+      </div>
+      <div id="project_content">
+        <video width="1280" height="720" controls poster="res/ForgottenDarkness/preview.JPG">
+          <source src="res/ForgottenDarkness/Teaser_02_fix02.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="text">
+          <figure>
+            <img src="res/SaveOurSouls/ssr.PNG">
+            <figcaption>CONCEPT ART</figcaption>
+          </figure>
+          <figure>
+            <img src="res/SaveOurSouls/ssr_02.PNG">
+            <figcaption>CONCEPT ART</figcaption>
+          </figure>
+        </div>
+        <div id="text">    
+          <figure>
+            <img src="res/SaveOurSouls/ssr_05.PNG">
+            <figcaption>CONCEPT ART</figcaption>
+          </figure>            
+          <figure>
+            <img src="res/SaveOurSouls/ssr_04.PNG">
+            <figcaption>CONCEPT ART</figcaption>
+          </figure>
+        </div>
+    </div>
+    <div class="projectsDiv" id="spaceAdventure">
+    <div class="header">
+      <h1>SPACE ADVENTURE</h1>
+      </div>
+      <div id="project_content">
+        <video width="1280	" height="720" controls>
+          <source src="res/SpaceAdventure/Space Adventure.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="text">
+          <t>
+            The space-adventurer swims through time and space, 
+           always on the search for new friends and interesting adventures. <br><br>
+            On the way to a recently discovered planet mysterious objects pass by. 
+            Is she able to catch them?
+          
+            
+          </t>
+          <div class="audioContainer">
+            
+            <div class="audioContent"><h3>PIECES OF THE SOUNDTRACK:</h3></div>
+            <div class="audioContent">
+          <audio controls>
+            <source src="res/SpaceAdventure/background_spacy.wav" type="audio/wav">
+            Your browser does not support the audio tag.
+          </audio>
+          
+            </div>
+            <div class="break"></div>
+            <div class="break"></div>
+            <div class="audioContent">
+              <audio controls>
+                <source src="res/SpaceAdventure/background_spacy02.wav" type="audio/wav">
+                Your browser does not support the audio tag.
+              </audio>
+                </div>
+                <div class="break"></div>
+          </div>
+  
+        </div>
+          
+  
+        <div id="text_alt">
+          <t>Unser Weltraum besitzt viele faszinierende Orte, welche heutzutage näher zu erreichen sind denn je. Ob
+            Planeten wie der Mars, Sterne oder andere mysteriöse Objekte. Der Weltraum bietet eine Vielzahl an
+            forschungsrelevanten Themen. Neben den positiven, faszinierenden Dingen, die es im Weltall gibt, entstehen
+            aber auch Probleme, die wir Menschen in den Weltraum gebracht haben. Eines dieser immer größer
+            werdenden Probleme ist der Weltraumschrott, welcher durch unsere Raumschiffe, Satelliten und weiteren
+            Erzeugnissen, erschaffen wurde. Wir haben dieses Problem in unserem Film thematisiert und versucht, es in
+            einer interessanten und vielleicht auch amüsanten Story darzustellen. 
+          </t>
+          
+        </div>
+      </div>
+      <div class="bottom">
+        <t id="headline">A project, part of my bachelors programm </t>
+        <t><br>Space Adventure 2020/2021, Kira Liedtke | Michael Cegielka
+           <a href="impressum.html"><br><br>Contact</a>
+        </t>
+      </div>
+      </div>
+    <div class="restDiv" id="impressum">
+    <div class="impressum">
+      <t>
+        Michael Cegielka </br></br>
+        For business relevant requests: </br>
+        <b>michael.cegielka@gmx.de</b></br></br></br>
+        Adresses for university relevant questions:</br>
+        mi_ce@uni-bremen.de</br>
+        mcegielka@hfk-bremen.de</br>
+      </t>
+    </div>
+  </div>
+   
       
  </body>
 

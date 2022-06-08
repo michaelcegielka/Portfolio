@@ -1,14 +1,23 @@
+html { 
+    scroll-behavior: smooth; 
+} 
+
 body{
     background-color: black;
+    margin: 0 auto;
 }
 h1 {
-    margin: 6vw;
-    padding-top: 3.5em;
+    position: relative;
+    z-index: 1;
+    margin-top: 3em;
+    margin-left: 3em;
     font-family: custom01;
     font-size: 3em;
     color: black;
     font-size: 300%;
-  }
+}
+
+  
 h2 {
     margin: 3vw;
     padding-left: 6vw;
@@ -22,11 +31,42 @@ h3 {
     font-size: 0.8em;
     color: white;
 }
+.restDiv{
+    position:relative;
+    z-index:1;
+    width:100%;
+    min-width: 1000px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.projectsDiv{
+    width:100%;
+    height:max-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.projectsListDiv{
+    position:relative;
+    z-index:1;
+    height: max-content * 2;
+    width:100%;
+    min-width: 1000px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
 .header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
     height: 16em;
     background-color: white;
 }
 .header_small{
+    padding-top: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
     height: 8em;
     background-color: white;
 }
@@ -91,16 +131,25 @@ h3 {
     font-style: bold;
 }
 .nav{
-    position: static;
+    margin: 0 auto;
+    position: fixed;
+    overflow:hidden;
+    z-index: 2;
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1500px;
+    padding: 2em;
+    height: 4em;
+    text-align: center;
     background-color: black;
-    padding: 1em;
     display: flex;
     justify-content: center;
     border-style: solid;
     border-bottom-color: white;
   }
 .nav a{
-    padding: 2em;
+    padding: 1em;
+    display: flex;
     color: white;
     font-family: custom02;
     font-size: 1em;
@@ -108,12 +157,13 @@ h3 {
     text-align: center;
   }
 .nav a:hover, a:active{
+    display: flex;
     color: grey;
   }
 .nav #current_site{
+    display: flex;
     color: grey;
     font-size: 150%;
-    margin-top: -1.5%;
 
 }
 #info{
@@ -122,14 +172,13 @@ h3 {
     padding: 1em;
     text-align: center;
     margin-left: 25%;
+    height: 100em;
     width: 50%;
     border-style: solid;
     border-left-color: white;
     border-right-color: white;
-
-    
-
 }
+
 #info t{
     color: white;
     font-family:Arial, Helvetica, sans-serif;
@@ -231,23 +280,31 @@ h3 {
 
 
 
-#project_list{
-    float: left; 
+.project_list{
+    position:relative;
+    z-index:1;
+    height:100%;
+    min-width: 1000px;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    
     margin: 6vw; 
     background-color: black;
     border-style: solid;
     border-left-color: white;
     border-right-color: white;
 }
-#project_list ul{
-    float: left; 
+.project_list ul{
+    justify-content: center;
     padding: 1em;
 }
-#project_list li{
+.project_list li{
+    justify-content: center;
     text-emphasis: none;
     padding: 4em;
 }
-#project_list a{
+.project_list a{
     color: white;
     font-family: custom01;
     font-size: 1em;
@@ -259,6 +316,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     margin: 6vw; 
     background-color: black;
     border-style: solid;
@@ -303,3 +361,5 @@ h3 {
     font-family: custom02;
     src: url(res/GameCube.ttf);
   }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
