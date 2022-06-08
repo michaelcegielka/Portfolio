@@ -10,4 +10,17 @@ function scrolling() {
     document.getElementById("navi02").style.fontSize = 1 + 'em';
     document.getElementById('navNav').style.height = 4 + 'em';
   }
+
+  var docWidth = document.documentElement.offsetWidth;
+  [].forEach.call(
+    document.querySelectorAll('*'),
+    function(el) {
+      if (el.offsetWidth > docWidth) {
+        console.log(el);
+      }
+    }
+  );
+
 }
+
+

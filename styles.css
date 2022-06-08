@@ -1,10 +1,14 @@
 html { 
     scroll-behavior: smooth; 
+    max-width: 100%; 
+    overflow-x: hidden;
 } 
 
 body{
     background-color: black;
     margin: 0 auto;
+    max-width: 100%; 
+    overflow-x: hidden;
 }
 h1 {
     position: relative;
@@ -35,8 +39,8 @@ h3 {
     position:relative;
     z-index:1;
     width:100%;
-    min-width: 1000px;
-    max-width: 1500px;
+    min-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
 }
 .projectsDiv{
@@ -51,13 +55,14 @@ h3 {
     z-index:1;
     height: max-content * 2;
     width:100%;
-    min-width: 1000px;
-    max-width: 1500px;
+    min-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
 }
 .header{
     display: flex;
     flex-wrap: wrap;
+    width:100%;
     justify-content: left;
     height: 16em;
     background-color: white;
@@ -66,6 +71,7 @@ h3 {
     padding-top: 10em;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: left;
     height: 8em;
     background-color: white;
@@ -99,7 +105,7 @@ h3 {
     text-decoration: none;
     text-decoration-line: underline;
 }
-.buttom t #headline{
+.bottom t #headline{
     color: aqua;
 }
 
@@ -131,14 +137,12 @@ h3 {
     font-size: 0.8em;
     font-style: bold;
 }
-.nav{
+.nav {
     margin: 0 auto;
     position: fixed;
     overflow:hidden;
     z-index: 2;
     width: 100%;
-    min-width: 1000px;
-    max-width: 1500px;
     padding: 2em;
     height: 4em;
     text-align: center;
@@ -167,24 +171,7 @@ h3 {
     font-size: 150%;
 
 }
-.player{
-    margin: 0 auto;
-    float: bottom;
-    position: fixed;
-    overflow:hidden;
-    z-index: 2;
-    width: 100%;
-    min-width: 1000px;
-    max-width: 1500px;
-    padding: 2em;
-    height: 4em;
-    text-align: center;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    border-style: solid;
-    border-bottom-color: white;
-  }
+
 #info{
     background-color: black;
     margin-top: 4vw;
@@ -303,8 +290,8 @@ h3 {
     position:relative;
     z-index:1;
     height:100%;
-    min-width: 1000px;
-    max-width: 1500px;
+    min-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
     
