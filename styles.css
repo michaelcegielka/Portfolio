@@ -39,7 +39,7 @@ h3 {
     position:relative;
     z-index:1;
     width:100%;
-    min-width: 70%;
+    min-width: 100%;
     max-width: 100%;
     margin: 0 auto;
 }
