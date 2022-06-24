@@ -5,7 +5,7 @@ const texts = ['HEY, WELCOME!', 'HEJ, WELCOME!','SALUT, BIENVENUE',
             'Привет, добро пожаловать','Haai, welkom','Ehi, benvenuto','Хеј, добродошли',
             'Hei, tervetuloa','Szia, Isten hozott','Hej, witaj',
             'Merhaba, Hoş Geldiniz','مرحبًا    ','Ei, benvingut',
-            'Hej, välkommen','Хуш омадед'];
+            'Hej, välkommen','Хуш омадед', 'Uy, abrasaen', 'Hei, laipni lūdzam', 'Hey, fáilte roimh chách'];
 
 const fonts = ['Courier New', 'Gill Sans', 'Ubuntu', 'custom01', 'Helvetica']
 

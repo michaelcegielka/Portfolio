@@ -1,14 +1,12 @@
 html { 
     scroll-behavior: smooth; 
     max-width: 100%; 
-    overflow-x: hidden;
 } 
 
 body{
     background-color: black;
     margin: 0 auto;
     max-width: 100%; 
-    overflow-x: hidden;
 }
 h1 {
     position: relative;
@@ -143,7 +141,7 @@ h3 {
     overflow:hidden;
     z-index: 2;
     width: 100%;
-    padding: 2em;
+    padding: 2em 0em 2em 0em;
     height: 4em;
     text-align: center;
     background-color: black;
@@ -303,7 +301,7 @@ h3 {
 }
 .project_list ul{
     justify-content: center;
-    padding: 1em;
+    padding: 4em 0em 2em 0;
 }
 .project_list li{
     justify-content: center;
@@ -315,7 +313,6 @@ h3 {
     font-family: custom01;
     font-size: 1em;
     text-decoration: none;
-    text-decoration-thickness: bold;
     text-align: center;
 }
 .impressum{
