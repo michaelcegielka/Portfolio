@@ -1,4 +1,3 @@
-
 const texts = ['HEY, WELCOME!', 'HEJ, WELCOME!','SALUT, BIENVENUE',  
             '嘿，欢迎    ', '안녕하세요, 환영합니다   ', 
             'HALLO, WILLKOMMEN','HOLA, BIENVENIDA', 
