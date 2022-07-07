@@ -307,8 +307,8 @@ h3 {
     padding: 4em 0em 2em 0;
     
 }
-.project_list li #main{
-    padding-top: 4em;
+.project_list li{
+    padding-top: 2em;
     
 }
 .project_list li {
@@ -325,6 +325,9 @@ h3 {
     text-align: center;
     
 }
+.project_list a:hover, a:active{
+    color: grey;
+  }
 .datetag{
     color: white;
     font-family: custom01;
