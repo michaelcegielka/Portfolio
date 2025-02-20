@@ -371,6 +371,7 @@ h3 {
 }
 .hey{
     position: relative;
+    padding-bottom: 1.5em;
 }
 
 .hey::after{
@@ -380,6 +381,7 @@ h3 {
     height: 1.5em;
     border-right: 2px solid black;
     animation: blink 0.5s infinite ease;
+    padding-bottom: 1.5em;
 }
 .fa {
     text-align: center;
