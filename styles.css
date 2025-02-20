@@ -234,8 +234,7 @@ h3 {
     float: right;
 }
 .text_alt figcaption{
-    display: flex;
-    float: left;
+    text-align: right;
     text-decoration: solid;
     font-family: custom01;
     font-size: 0.8em;
@@ -266,8 +265,7 @@ h3 {
 
 }
 #project_content figcaption{
-    display: flex;
-    float: right;
+    text-align: right;
     text-decoration: solid;
     font-family: custom01;
     font-size: 0.8em;
